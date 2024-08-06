@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E52E6892C620318005F8618 /* hist in Resources */ = {isa = PBXBuildFile; fileRef = 5E52E67E2C620317005F8618 /* hist */; };
+		5E52E68A2C620318005F8618 /* final.py in Resources */ = {isa = PBXBuildFile; fileRef = 5E52E67F2C620317005F8618 /* final.py */; };
+		5E52E68B2C620318005F8618 /* cnn_model_train.py in Resources */ = {isa = PBXBuildFile; fileRef = 5E52E6802C620317005F8618 /* cnn_model_train.py */; };
+		5E52E68C2C620318005F8618 /* load_images.py in Resources */ = {isa = PBXBuildFile; fileRef = 5E52E6812C620318005F8618 /* load_images.py */; };
+		5E52E68D2C620318005F8618 /* create_gestures.py in Resources */ = {isa = PBXBuildFile; fileRef = 5E52E6822C620318005F8618 /* create_gestures.py */; };
+		5E52E68E2C620318005F8618 /* gesture_db.db in Resources */ = {isa = PBXBuildFile; fileRef = 5E52E6832C620318005F8618 /* gesture_db.db */; };
+		5E52E68F2C620318005F8618 /* Install_Packages_gpu.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5E52E6842C620318005F8618 /* Install_Packages_gpu.txt */; };
+		5E52E6902C620318005F8618 /* set_hand_histogram.py in Resources */ = {isa = PBXBuildFile; fileRef = 5E52E6852C620318005F8618 /* set_hand_histogram.py */; };
+		5E52E6912C620318005F8618 /* Rotate_images.py in Resources */ = {isa = PBXBuildFile; fileRef = 5E52E6862C620318005F8618 /* Rotate_images.py */; };
+		5E52E6922C620318005F8618 /* display_gestures.py in Resources */ = {isa = PBXBuildFile; fileRef = 5E52E6872C620318005F8618 /* display_gestures.py */; };
+		5E52E6932C620318005F8618 /* Install_Packages.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5E52E6882C620318005F8618 /* Install_Packages.txt */; };
 		E561B4702C61F9600093B8B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E561B46F2C61F9600093B8B7 /* AppDelegate.swift */; };
 		E561B4722C61F9600093B8B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E561B4712C61F9600093B8B7 /* SceneDelegate.swift */; };
 		E561B4742C61F9600093B8B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E561B4732C61F9600093B8B7 /* ViewController.swift */; };
@@ -36,6 +47,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E52E67E2C620317005F8618 /* hist */ = {isa = PBXFileReference; lastKnownFileType = file; path = hist; sourceTree = "<group>"; };
+		5E52E67F2C620317005F8618 /* final.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = final.py; sourceTree = "<group>"; };
+		5E52E6802C620317005F8618 /* cnn_model_train.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = cnn_model_train.py; sourceTree = "<group>"; };
+		5E52E6812C620318005F8618 /* load_images.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = load_images.py; sourceTree = "<group>"; };
+		5E52E6822C620318005F8618 /* create_gestures.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = create_gestures.py; sourceTree = "<group>"; };
+		5E52E6832C620318005F8618 /* gesture_db.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = gesture_db.db; sourceTree = "<group>"; };
+		5E52E6842C620318005F8618 /* Install_Packages_gpu.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Install_Packages_gpu.txt; sourceTree = "<group>"; };
+		5E52E6852C620318005F8618 /* set_hand_histogram.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = set_hand_histogram.py; sourceTree = "<group>"; };
+		5E52E6862C620318005F8618 /* Rotate_images.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = Rotate_images.py; sourceTree = "<group>"; };
+		5E52E6872C620318005F8618 /* display_gestures.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = display_gestures.py; sourceTree = "<group>"; };
+		5E52E6882C620318005F8618 /* Install_Packages.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Install_Packages.txt; sourceTree = "<group>"; };
 		E561B46C2C61F9600093B8B7 /* FAAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FAAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E561B46F2C61F9600093B8B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E561B4712C61F9600093B8B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +98,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E52E67D2C620307005F8618 /* SignModel */ = {
+			isa = PBXGroup;
+			children = (
+				5E52E6802C620317005F8618 /* cnn_model_train.py */,
+				5E52E6822C620318005F8618 /* create_gestures.py */,
+				5E52E6872C620318005F8618 /* display_gestures.py */,
+				5E52E67F2C620317005F8618 /* final.py */,
+				5E52E6832C620318005F8618 /* gesture_db.db */,
+				5E52E67E2C620317005F8618 /* hist */,
+				5E52E6842C620318005F8618 /* Install_Packages_gpu.txt */,
+				5E52E6882C620318005F8618 /* Install_Packages.txt */,
+				5E52E6812C620318005F8618 /* load_images.py */,
+				5E52E6862C620318005F8618 /* Rotate_images.py */,
+				5E52E6852C620318005F8618 /* set_hand_histogram.py */,
+			);
+			path = SignModel;
+			sourceTree = "<group>";
+		};
 		E561B4632C61F9600093B8B7 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +139,7 @@
 		E561B46E2C61F9600093B8B7 /* FAAM */ = {
 			isa = PBXGroup;
 			children = (
+				5E52E67D2C620307005F8618 /* SignModel */,
 				E561B46F2C61F9600093B8B7 /* AppDelegate.swift */,
 				E561B4712C61F9600093B8B7 /* SceneDelegate.swift */,
 				E561B4732C61F9600093B8B7 /* ViewController.swift */,
@@ -231,9 +272,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E52E6892C620318005F8618 /* hist in Resources */,
+				5E52E6902C620318005F8618 /* set_hand_histogram.py in Resources */,
+				5E52E6922C620318005F8618 /* display_gestures.py in Resources */,
+				5E52E6932C620318005F8618 /* Install_Packages.txt in Resources */,
 				E561B4792C61F9620093B8B7 /* Assets.xcassets in Resources */,
+				5E52E6912C620318005F8618 /* Rotate_images.py in Resources */,
+				5E52E68C2C620318005F8618 /* load_images.py in Resources */,
 				E561B47C2C61F9620093B8B7 /* Base in Resources */,
+				5E52E68B2C620318005F8618 /* cnn_model_train.py in Resources */,
 				E561B4772C61F9600093B8B7 /* Base in Resources */,
+				5E52E68F2C620318005F8618 /* Install_Packages_gpu.txt in Resources */,
+				5E52E68D2C620318005F8618 /* create_gestures.py in Resources */,
+				5E52E68E2C620318005F8618 /* gesture_db.db in Resources */,
+				5E52E68A2C620318005F8618 /* final.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
