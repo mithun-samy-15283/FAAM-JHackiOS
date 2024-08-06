@@ -16,6 +16,7 @@
 		E561B4872C61F9620093B8B7 /* FAAMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E561B4862C61F9620093B8B7 /* FAAMTests.swift */; };
 		E561B4912C61F9620093B8B7 /* FAAMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E561B4902C61F9620093B8B7 /* FAAMUITests.swift */; };
 		E561B4932C61F9620093B8B7 /* FAAMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E561B4922C61F9620093B8B7 /* FAAMUITestsLaunchTests.swift */; };
+		E561B4A42C6206100093B8B7 /* TestFRecog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E561B4A32C6206100093B8B7 /* TestFRecog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E561B48C2C61F9620093B8B7 /* FAAMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FAAMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E561B4902C61F9620093B8B7 /* FAAMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAAMUITests.swift; sourceTree = "<group>"; };
 		E561B4922C61F9620093B8B7 /* FAAMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAAMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E561B4A32C6206100093B8B7 /* TestFRecog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFRecog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				E561B46F2C61F9600093B8B7 /* AppDelegate.swift */,
 				E561B4712C61F9600093B8B7 /* SceneDelegate.swift */,
 				E561B4732C61F9600093B8B7 /* ViewController.swift */,
+				E561B4A22C6206000093B8B7 /* FaceRecognition */,
 				E561B4752C61F9600093B8B7 /* Main.storyboard */,
 				E561B4782C61F9620093B8B7 /* Assets.xcassets */,
 				E561B47A2C61F9620093B8B7 /* LaunchScreen.storyboard */,
@@ -125,6 +128,14 @@
 				E561B4922C61F9620093B8B7 /* FAAMUITestsLaunchTests.swift */,
 			);
 			path = FAAMUITests;
+			sourceTree = "<group>";
+		};
+		E561B4A22C6206000093B8B7 /* FaceRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				E561B4A32C6206100093B8B7 /* TestFRecog.swift */,
+			);
+			path = FaceRecognition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E561B4742C61F9600093B8B7 /* ViewController.swift in Sources */,
+				E561B4A42C6206100093B8B7 /* TestFRecog.swift in Sources */,
 				E561B4702C61F9600093B8B7 /* AppDelegate.swift in Sources */,
 				E561B4722C61F9600093B8B7 /* SceneDelegate.swift in Sources */,
 			);
